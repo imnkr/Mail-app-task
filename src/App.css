@@ -1,0 +1,61 @@
+
+.app {
+  width: 100%;
+  bottom: 0;
+  top: 66px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+.d-center {
+  display: flex;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.subtab {
+  padding: 20px 30px;
+}
+
+.subtab.active {
+  border-bottom: solid blue;
+}
+
+.row  {
+  padding: 30px 15px;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #c5c9e8a3;
+}
+
+.sidebar {
+ width: 11%;
+ padding: 15px 30px;
+ transition: width 0.3s ease-in-out; 
+}
+
+.folded {
+  width: 36px;
+}
+
+
+.bg {
+  background-color: #dcdef1a3
+}
+
+.nav-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #dedef2;
+}
+
+.nav-item.selected {
+  background-color: #bbbfe9a3;
+}
